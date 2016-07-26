@@ -1,0 +1,54 @@
+body {
+    background-color: #FDFFFC;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+.logo {
+    width: 50%;
+}
+
+.page-header h1 {
+    color: #C2847A;
+}
+
+.weather {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.weather-active {
+    height: 200px;
+    padding: 25px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #223843;
+}
+
+.weather-active-left {
+    padding-top: 35px;
+}
+
+.weather-active-left-text {
+    padding-top: 15px;
+}
+
+.three-day-forecast {
+    height: 150px;
+    color: #1F2D3D;
+    background-color: #6B818C;
+}
+
+.forecast-text {
+    padding-top: 10px;
+    opacity: 0.8;
+}
+
+.border-right {
+    height: 100%;
+    border-right: 2px solid #54656d;
+}
