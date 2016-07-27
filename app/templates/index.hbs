@@ -1,9 +1,7 @@
-
 <div class="container">
-    <div class="page-header">
+    <div class="page-header text-center">
         <h1>Ember FastBoot Demo<br>
-            <small>A simple app to display Chicago forecast for the next 3 days from</small>
-            <a href="https://www.wunderground.com"><img width="250" height="30" src="https://icons.wxug.com/logos/PNG/wundergroundLogo_4c_horz.png"/></a>
+            <small>- Chicago 3 Days Forecast -</small>
         </h1>
     </div>
 
@@ -17,8 +15,8 @@
                     <p><small><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Chicago, IL</small></p>
                 </div>
             </div>
-            <div class="col-lg-8 col-sm-8 weather-active-left">
-                <div class="row text-center">
+            <div class="col-lg-8 col-sm-8 text-center weather-active-left">
+                <div class="row">
                     <div class="col-lg-6 col-sm-6"><b>High:</b> {{model.forecast.simpleforecast.forecastday.[0].high.fahrenheit}}&#8457;</div>
                     <div class="col-lg-6 col-sm-6"><b>Low:</b> {{model.forecast.simpleforecast.forecastday.[0].low.fahrenheit}}&#8457;</div>
                 </div>
@@ -52,8 +50,7 @@
             </div>
         </div>
     </div>
-
+    <footer class="text-center">
+    <a href="https://www.wunderground.com"><img width="250" height="30" src="https://icons.wxug.com/logos/PNG/wundergroundLogo_4c_horz.png"/></a>
+    </footer>
 </div>
-
-<footer>
-</footer>

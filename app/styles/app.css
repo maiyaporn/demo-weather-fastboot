@@ -1,9 +1,9 @@
 body {
-    background-color: #FDFFFC;
+    background: linear-gradient(135deg,#182848,#4B6CB7);
 }
 
 footer {
-    padding-top: 50px;
+    padding: 50px 0px;
 }
 
 .logo {
@@ -11,11 +11,15 @@ footer {
 }
 
 .page-header h1 {
-    color: #C2847A;
+    color: #FFA91B;
+}
+
+.page-header small {
+    color: #F1FFFA;
 }
 
 .weather {
-    width: 50%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
@@ -24,9 +28,10 @@ footer {
 .weather-active {
     height: 200px;
     padding: 25px;
-    color: #fff;
+    color: #454545;
     font-size: 14px;
-    background-color: #223843;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #FFF;
 }
 
 .weather-active-left {
@@ -40,7 +45,8 @@ footer {
 .three-day-forecast {
     height: 150px;
     color: #1F2D3D;
-    background-color: #6B818C;
+    background-color: #eee;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .forecast-text {
@@ -50,5 +56,5 @@ footer {
 
 .border-right {
     height: 100%;
-    border-right: 2px solid #54656d;
+    border-right: 2px solid #e2e1e1;
 }
